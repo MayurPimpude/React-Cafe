@@ -1,4 +1,5 @@
 import React from 'react'
+import '../index.css'
 
 export default function Header() {
     return (
@@ -9,8 +10,8 @@ export default function Header() {
                         <div class="hero-content">
                             <h1
                                 class="
+                                head
                   text-dark
-                  font-bold
                   text-4xl
                   sm:text-[42px]
                   lg:text-[40px]
@@ -20,8 +21,8 @@ export default function Header() {
                   mb-3
                 "
                             >
-                                Coffee <br />
-                                Cafe <br />
+                                Roast <br />
+                                Beans <br />
 
                             </h1>
                             <p class="text-base mb-8 font-size:20px text-white max-w-[480px]">

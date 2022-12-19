@@ -1,4 +1,5 @@
 import React from 'react'
+import '../index.css'
 
 export default function Footer() {
   return (
@@ -65,8 +66,7 @@ export default function Footer() {
           <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div class="">
               <h6 class="
-            uppercase
-            font-semibold
+              head
             mb-4
             flex
             items-center
@@ -74,7 +74,7 @@ export default function Footer() {
             md:justify-start
           ">
 
-                Coffee Cafe
+                RoastBeans
               </h6>
               <p>
                 Our story begins in 2002 along the cobblestone streets of Thane historic Masunda lake Place.
@@ -155,7 +155,7 @@ export default function Footer() {
           </div>
         </div>
         <div class="text-center p-6 bg-[#795841]">
-          <span>© 2021 Copyright: Coffee Cafe</span>
+          <span>© 2021 Copyright: <span class="head">RoastBeans</span></span>
         </div>
       </footer>
     </div>
