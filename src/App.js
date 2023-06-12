@@ -6,10 +6,11 @@ import Header from './components/Header';
 import Layout from './components/layout';
 import Menu from './components/Menu';
 import {Route,Switch} from "react-router-dom"
+import Review from './components/Review';
 
 function App() {
   return (
-    <>
+    <div>
     < Navbar/>
     
     <Switch>
@@ -18,9 +19,10 @@ function App() {
       <Route path='/Header' component={Header} />
       <Route exact path='/Cardo' component={Cardo} />
     </Switch>
-    
+
+    <Review />
     <Footer />
-    </>
+    </div>
   );
 }
 

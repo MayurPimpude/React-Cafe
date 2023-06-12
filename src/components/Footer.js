@@ -4,7 +4,7 @@ import '../index.css'
 export default function Footer() {
   return (
     <div>
-      <footer class="text-center lg:text-left bg-[#795841] text-white">
+      <footer class="text-center lg:text-left bg-[#221003] text-white">
         <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
           <div class="mr-12 hidden lg:block">
             <span>Get connected with us on social networks:</span>
@@ -74,7 +74,7 @@ export default function Footer() {
             md:justify-start
           ">
 
-                RoastBeans
+                Coffee Club
               </h6>
               <p>
                 Our story begins in 2002 along the cobblestone streets of Thane historic Masunda lake Place.
@@ -145,17 +145,17 @@ export default function Footer() {
             </div>
 
             <div class="">
-              <h6 class="uppercase font-semibold mb-4 flex justify-center md:justify-start">
-              Your message
-              </h6>
-              <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-white  rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 bg-[#dea982] dark:border-gray-600 dark:placeholder-black dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
-
+                <div class="w-full h-auto">
+                <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  class="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" frameborder="0"
+                  allowfullscreen></iframe>
+              </div>
             </div>
 
           </div>
         </div>
-        <div class="text-center p-6 bg-[#795841]">
-          <span>© 2021 Copyright: <span class="head">RoastBeans</span></span>
+        <div class="text-center p-6 bg-[#221003]">
+          <span>© 2021 Copyright: <span class="head">Coffee Club</span></span>
         </div>
       </footer>
     </div>
