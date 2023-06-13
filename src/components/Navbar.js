@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import {Link} from 'react-scroll';
 import '../index.css'
 import {GiCoffeeBeans} from 'react-icons/gi'
 
@@ -48,25 +48,23 @@ export default function Navbar() {
                         <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-transparent md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-[#221003] 0 md:0 ">
                             <li>
                                 <Link
-                                    to='/'
+                                   to='about'
+                                   activeClass='active'
+                                   smooth={true}
+                                   spy={true}
                                     className="block py-2 pl-3 pr-4 text-white rounded hover:bg-[#6e3912] md:hover:bg-transparent md:border-0 md:hover:text-[#EAB54C] md:p-0"
                                     aria-current="page"
-                                >
-                                    Home
-                                </Link>
-                            </li>
-                            <li>
-                               <Link
-                                    to='/Menu'
-                                    className="block py-2 pl-3 pr-4 text-white rounded hover:bg-[#6e3912] md:hover:bg-transparent md:border-0 md:hover:text-[#EAB54C] md:p-0  md:-blue-500 ray-700 -white"
                                 >
                                     About
                                 </Link>
                             </li>
-                           
+                          
                             <li>
                                <Link
-                                    to='/Menu'
+                                    to='menu'
+                                    activeClass='active'
+                                    smooth={true}
+                                    spy={true}
                                     className="block py-2 pl-3 pr-4 text-white rounded hover:bg-[#6e3912] md:hover:bg-transparent md:border-0 md:hover:text-[#EAB54C] md:p-0  md:-blue-500 ray-700 -white"
                                 >
                                     Menu
@@ -74,18 +72,24 @@ export default function Navbar() {
                             </li>
                             <li>
                                <Link
-                                    to='/Header'
+                                    to='reserve'
+                                    activeClass='active'
+                                    smooth={true}
+                                    spy={true}
                                     className="block py-2 pl-3 pr-4 text-white rounded hover:bg-[#6e3912] md:hover:bg-transparent md:border-0 md:hover:text-[#EAB54C] md:p-0"
                                 >
-                                    Review
+                                    Reserve
                                 </Link>
                             </li>
                             <li>
                                <Link
-                                    to='/Cardo'
+                                   to='login'
+                                   activeClass='active'
+                                   smooth={true}
+                                   spy={true}
                                     className="block py-2 pl-3 pr-4 text-white rounded hover:bg-[#7d4116] md:hover:bg-transparent md:border-0 md:hover:text-[#EAB54C] md:p-0  md:-blue-500 ray-700 -white "
                                 >
-                                    Contact
+                                    Login
                                 </Link>
                             </li>
                         </ul>

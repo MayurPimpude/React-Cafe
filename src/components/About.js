@@ -3,7 +3,7 @@ import coffee from '../images/coffee.jpg'
 
 function About() {
   return (
-    <div>
+    <div id='about'>
    
     <div className='bg-[#221003] h-auto flex flex-col justify-center '>
       <p className='text-white text-5xl text-center mt-5 mb-4 '>About</p>

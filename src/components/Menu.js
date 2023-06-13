@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Menu() {
   return (
-    <div className='pt-10 pb-10 bg-[#221003]'>
+    <div className='pt-10 pb-10 bg-[#221003]' id='menu'>
       <h1 class="mt-2 mb-4 text-center text-5xl text-[#EAB54C]">Coffees Available</h1>
       <div class="m-8 flex gap-4 flex-wrap justify-center">
 

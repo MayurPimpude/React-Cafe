@@ -12,7 +12,7 @@ function Review() {
   
 
     return (
-        <div>
+        <div id='reserve'>
             <section class="bg-gray-900 py-10">
                 <h1 class="mt-2 mb-4 text-center text-5xl text-[#EAB54C]">Reserve</h1>
                 <div class="container h-full px-6 py-5">
