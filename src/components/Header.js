@@ -9,7 +9,7 @@ export default function Header() {
                     <div class="px-6 py-12 md:px-12">
                         <div class="grid items-center lg:grid-cols-2 ">
                             <div class="mb-12 lg:mb-0">
-                                <p className='text-gray-300'>Since 2022</p>
+                                
                                 <h2 class="my-2 text-5xl font-bold leading-tight text-white tracking-tight">
                                     Are you ready <br />
                                     <span class=" text-[#EAB54C]">for a Coffee?</span>
