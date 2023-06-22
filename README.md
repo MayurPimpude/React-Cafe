@@ -1,7 +1,7 @@
 # Deployed on Vercel
 
-[coffeeclub-git-main-mayurpimpude.vercel.app](url)
-[coffeeclub-mayurpimpude.vercel.app](url)
+[coffeeclub-git-main-mayurpimpude.vercel.app](url) .\
+[coffeeclub-mayurpimpude.vercel.app](url) .\
 [coffeeclub-five.vercel.app](url)
 
 # Getting Started with Create React App
