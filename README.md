@@ -1,3 +1,9 @@
+# Deployed on Vercel
+
+[coffeeclub-git-main-mayurpimpude.vercel.app
+coffeeclub-mayurpimpude.vercel.app
+coffeeclub-five.vercel.app](url)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
